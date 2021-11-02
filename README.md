@@ -6,22 +6,22 @@ Here is a list of the functions that are implemented:
 
 - `getItems()`
 - `getItemById(id: number)`
-- addItem(item: {})
-- updateItemById(newItem: {}, oldItemId: number)
-- removeItemById(id: number)
-- clearStorage()
-- getLength()
-- getLastId()
+- `addItem(item: {})`
+- `updateItemById(newItem: {}, oldItemId: number)`
+- `removeItemById(id: number)`
+- `clearStorage()`
+- `getLength()`
+- `getLastId()`
 
 A simple item constructor is also available:
 
-- Item(firstName: string, lastName: string)
+- `Item(firstName: string, lastName: string)`
 
 **NOTE:** As said above, data is stored using the browser's local storage. Specifically, it gets stored as 'storage', since local storage is structured as a list of key-value pairs. So, be aware that if you have something stored whithin that same key, it will interfere with this application.
 
 ## Implementing the UI
 Since this is a fully operative CRUD app, it should be easy to build a UI and connect it to this structural application. 
-To do this, it will be enough with a simple paintItems() function, that update the UI whenever a change in the data structure is done. 
+To do this, it will be enough with a simple `paintItems()` function, that update the UI whenever a change in the data structure is done. 
 
 ```javascript
 const paintItems = function() {
@@ -35,7 +35,7 @@ const paintItems = function() {
 }
 ```
 
-Then, this function could be invoked at some point inside the currently existent functions or new specific functions could be created, such as addItemUI(), updateItemByIdUI() and so on.
+Then, this function could be invoked at some point inside the currently existent functions or new specific functions could be created, such as `addItemUI()`, `updateItemByIdUI()` and so on.
 
 ```javascript
 const addItemUI = function(item) {
