@@ -12,17 +12,13 @@ Here is a list of the functions that are implemented:
 - `clearStorage()`
 - `getLength()`
 - `getLastId()`
-|Functions|
-|:-------:|
-|`getItems()`|
-|`getItemById(id: number)`|
-|`addItem(item: {})`|
 
 A simple item constructor is also available:
 
 - `Item(firstName: string, lastName: string)`
 
 **NOTE:** As said above, data is stored using the browser's local storage. Specifically, it gets stored as 'storage', since local storage is structured as a list of key-value pairs. So, be aware that if you have something stored whithin that same key, it will interfere with this application.
+
 
 ## Implementing the UI
 Since this is a fully operative CRUD app, it should be easy to build a UI and connect it to this structural application. 
