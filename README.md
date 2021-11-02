@@ -12,7 +12,8 @@ Here is a list of the functions that are implemented:
 - `clearStorage()`
 - `getLength()`
 - `getLastId()`
-
+|Functions|
+|:-------:|
 |`getItems()`|
 |`getItemById(id: number)`|
 |`addItem(item: {})`|
