@@ -4,8 +4,8 @@
 This is a basic CRUD application. It allows you to create, read, update and delete items easily. The data gets stored in the browser's local storage, so you can reload the page or exit the browser and the data will persist. 
 Here is a list of the functions that are implemented:
 
-- _getItems()_
-- _getItemById(id: number)_
+- `getItems()`
+- `getItemById(id: number)`
 - addItem(item: {})
 - updateItemById(newItem: {}, oldItemId: number)
 - removeItemById(id: number)
@@ -15,7 +15,7 @@ Here is a list of the functions that are implemented:
 
 A simple item constructor is also available:
 
-- Item(name: string, surname: string, phone: string, email: string)
+- Item(firstName: string, lastName: string)
 
 **NOTE:** As said above, data is stored using the browser's local storage. Specifically, it gets stored as 'storage', since local storage is structured as a list of key-value pairs. So, be aware that if you have something stored whithin that same key, it will interfere with this application.
 
