@@ -35,7 +35,7 @@ const paintItems = function() {
 }
 ```
 
-Then, this function could be invoked at some point inside the currently existent functions or new specific functions could be created, such as addItemUI() or updateItemByIdUI().
+Then, this function could be invoked at some point inside the currently existent functions or new specific functions could be created, such as addItemUI(), updateItemByIdUI() and so on.
 
 ```javascript
 const addItemUI = function(item) {
