@@ -1,4 +1,3 @@
-// Storage functions
 const getItems = function(){
 
     let items = localStorage.getItem('storage');
