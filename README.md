@@ -13,6 +13,10 @@ Here is a list of the functions that are implemented:
 - `getLength()`
 - `getLastId()`
 
+|`getItems()`|
+|`getItemById(id: number)`|
+|`addItem(item: {})`|
+
 A simple item constructor is also available:
 
 - `Item(firstName: string, lastName: string)`
