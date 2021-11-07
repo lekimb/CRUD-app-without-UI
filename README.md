@@ -30,7 +30,7 @@ const paintItems = function() {
     let html = '';
 
     items.forEach(function(item){
-        html += `<ul><li>ID: ${item.id}</li><li>Name: ${item.name} ${item.surname}</li><li>Phone: ${item.phone}</li><li>Email: ${item.email}</li></ul>`;
+        html += `<ul><li>id: ${item.id}</li><li>name: ${item.firstName} ${item.lastName}</li></ul>`;
     });
     document.getElementById('container').innerHTML = html;
 }
